@@ -1,2 +1,4 @@
 <?php
-echo __FILE__;
+print __FILE__;
+echo '<br>';
+echo 'Главная страница (index)';
