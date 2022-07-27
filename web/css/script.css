@@ -1,0 +1,20 @@
+button a,
+button a:hover{
+    text-decoration: none;
+}
+
+.list-group button {
+    transition: all .5s ease;
+}
+
+.list-group button:hover {
+    background-color: blue;
+}
+
+.list-group button:hover a {
+    color: white;
+}
+
+#floatingTextarea {
+    resize: none;
+}
