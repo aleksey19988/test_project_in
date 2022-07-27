@@ -44,7 +44,11 @@ AppAsset::register($this);
         <div class="row">
             <div class="col-3 list-group">
                 <button type="button" class="list-group-item list-group-item-action"><a href="./?r=<?= Yii::$app->layout?>/greeting" data-toggle="collapse" data-target="#">Приветствие</a></button>
-                <button type="button" class="list-group-item list-group-item-action"><a href="./?r=<?= Yii::$app->layout?>/information" data-toggle="collapse" data-target="#">Информация</a></button>
+                <button type="button" class="list-group-item list-group-item-action" disabled><a href="./?r=<?= Yii::$app->layout?>/information" data-toggle="collapse" data-target="#">Информация</a></button>
+
+                <button type="button" class="list-group-item list-group-item-action item-lvl-2"><a href="./?r=<?= Yii::$app->layout?>/faq" data-toggle="collapse" data-target="#">ЧЗВ</a></button>
+                <button type="button" class="list-group-item list-group-item-action item-lvl-2"><a href="./?r=<?= Yii::$app->layout?>/about" data-toggle="collapse" data-target="#">О компании</a></button>
+
                 <button type="button" class="list-group-item list-group-item-action"><a href="./?r=<?= Yii::$app->layout?>/order" data-toggle="collapse" data-target="#">Оформление заказа</a></button>
                 <button type="button" class="list-group-item list-group-item-action"><a href="./?r=<?= Yii::$app->layout?>/call-transfer" data-toggle="collapse" data-target="#">Перевод звонка</a></button>
                 <button type="button" class="list-group-item list-group-item-action"><a href="./?r=<?= Yii::$app->layout?>/non-standard-question" data-toggle="collapse" data-target="#">Нестандартный вопрос</a></button>
@@ -60,7 +64,7 @@ AppAsset::register($this);
     <div class="container">
         <form action="">
             <div class="form-floating float-left">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" rows="5"></textarea>
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
                 <label for="floatingTextarea">Comments</label>
             </div>
         </form>

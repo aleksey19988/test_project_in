@@ -3,7 +3,7 @@ button a {
 }
 
 button a,
-button a:hover{
+button a:hover {
     text-decoration: none;
 }
 
@@ -19,6 +19,25 @@ button a:hover{
     color: white;
 }
 
+.item-lvl-2 {
+    padding-left: 40px;
+}
+
 #floatingTextarea {
     resize: none;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.sendFormBtn,
+.outsideCallBtn {
+    color: white;
+    display: block;
+}
+
+form button:hover a,
+.outsideCallBtn:hover {
+    color: white;
 }

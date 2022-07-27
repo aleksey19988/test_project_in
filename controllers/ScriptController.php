@@ -19,9 +19,14 @@ class ScriptController extends Controller
         return $this->render('greeting');
     }
 
-    public function actionInformation()
+    public function actionFaq()
     {
-        return $this->render('information');
+        return $this->render('faq');
+    }
+
+    public function actionAbout()
+    {
+        return $this->render('about');
     }
 
     public function actionOrder()
