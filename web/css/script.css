@@ -53,3 +53,13 @@ form button:hover a,
 .hint-text {
     color: #903030;
 }
+
+.collapse-title-link {
+    color: #000;
+    display: block;
+    margin: 5px 0;
+}
+
+.collapse-title-link:hover {
+    color: #000;
+}
