@@ -7,9 +7,10 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
-    'layout' => 'script',
+    'layout' => 'script', //переопределил дефолтный шаблон
     'name' => 'Test in script',
     'language' => 'ru',
+    'defaultRoute' => 'script/index', // переопределил дефолтный контроллер
 
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
