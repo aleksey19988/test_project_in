@@ -11,7 +11,13 @@
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion">
             <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <p>
+                    <span class="bold-text">Оператор: </span>Паспорт (2-3 страница, постоянная регистрация) и фото клиента с паспортом
+                </p>
+                <p>Спасибо за Ваш звонок. Всего доброго! До свидания!</p>
+                <button type="button" class="btn btn-primary">
+                    <a class="endOfCall" href="./?r=<?= Yii::$app->layout?>/end-of-call">Завершение звонка</a>
+                </button>
             </div>
         </div>
     </div>
@@ -23,7 +29,13 @@
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
             <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <p>
+                    <span class="bold-text">Оператор: </span>К сожалению, повторно код не высылается. На ввод кода из СМС, дается три попытки. В случае ввода более 3-х раз некорректного кода, вам необходимо завести заявку заново.
+                </p>
+                <p>Спасибо за Ваш звонок. Всего доброго! До свидания!</p>
+                <button type="button" class="btn btn-primary">
+                    <a class="endOfCall" href="./?r=<?= Yii::$app->layout?>/end-of-call">Завершение звонка</a>
+                </button>
             </div>
         </div>
     </div>
@@ -35,7 +47,13 @@
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
             <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <p>
+                    <span class="bold-text">Оператор: </span>К сожалению, заявку на кредит/карту, можно подавать только на телефон, который принадлежит КЛ. В данном случае, могу посоветовать Вам, только переставить SIM-карту в другой телефон и ожидать звонка/смс сообщения.
+                </p>
+                <p>Спасибо за Ваш звонок. Всего доброго! До свидания!</p>
+                <button type="button" class="btn btn-primary">
+                    <a class="endOfCall" href="./?r=<?= Yii::$app->layout?>/end-of-call">Завершение звонка</a>
+                </button>
             </div>
         </div>
     </div>
@@ -47,7 +65,13 @@
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordion">
             <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <p>
+                    <span class="bold-text">Оператор: </span>Можете указать страну/город/улицу, территориально близкую к данной, наш сотрудник внесет правки.
+                </p>
+                <p>Спасибо за Ваш звонок. Всего доброго! До свидания!</p>
+                <button type="button" class="btn btn-primary">
+                    <a class="endOfCall" href="./?r=<?= Yii::$app->layout?>/end-of-call">Завершение звонка</a>
+                </button>
             </div>
         </div>
     </div>
@@ -59,7 +83,13 @@
         </h2>
         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordion">
             <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <p>
+                    <span class="bold-text">Оператор: </span>По данному вопросу, вам необходимо обратиться на горячую линию Банка, по номеру 8-800-250-0520
+                </p>
+                <p>Спасибо за Ваш звонок. Всего доброго! До свидания!</p>
+                <button type="button" class="btn btn-primary">
+                    <a class="endOfCall" href="./?r=<?= Yii::$app->layout?>/end-of-call">Завершение звонка</a>
+                </button>
             </div>
         </div>
     </div>
@@ -71,7 +101,16 @@
         </h2>
         <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordion">
             <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <p>
+                    <span class="bold-text">Оператор: </span>Необходимо поставить статус «отказ от подписания документов»
+                </p>
+                <p class="hint-text">
+                    <span class="bold-text">Примечание: </span>после печати документов производится подписание документации клиентом. Сотрудник РТК не должен ставить отметку о подписании клиентом документов до тех пор, пока клиент фактически не поставит на них свою подпись. Только после этого сотрудник ТТ должен завершить оформление кредита в системе/проставить отметку о подписании документов.
+                </p>
+                <p>Спасибо за Ваш звонок. Всего доброго! До свидания!</p>
+                <button type="button" class="btn btn-primary">
+                    <a class="endOfCall" href="./?r=<?= Yii::$app->layout?>/end-of-call">Завершение звонка</a>
+                </button>
             </div>
         </div>
     </div>
@@ -83,7 +122,9 @@
         </h2>
         <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordion">
             <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <p>
+                    <span class="bold-text">Оператор: </span>Необходимо обратиться на горячую линию банка по номеру 8-800-250-05-20
+                </p>
             </div>
         </div>
     </div>
@@ -95,7 +136,10 @@
         </h2>
         <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordion">
             <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <p>Выслушиваем суть вопроса. </p>
+                <p>
+                    <span class="bold-text">Оператор: </span>Необходимо обратиться на горячую линию банка по номеру 8-800-250-05-20
+                </p>
             </div>
         </div>
     </div>
