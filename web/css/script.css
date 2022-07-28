@@ -63,3 +63,7 @@ form button:hover a,
 .collapse-title-link:hover {
     color: #000;
 }
+
+.requiredArea {
+    color: red;
+}

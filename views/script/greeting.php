@@ -10,12 +10,12 @@
 
 <form>
     <div class="mb-3">
-        <label for="inputClientName" class="form-label">Имя абонента</label>
+        <label for="inputClientName" class="form-label">Имя абонента<span class="requiredArea">*</span></label>
         <input type="text" class="form-control" id="inputClientName" aria-describedby="clientName" required>
 <!--        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>-->
     </div>
     <div class="mb-3">
-        <label for="inputClientType" class="form-label">Тип абонента</label>
+        <label for="inputClientType" class="form-label">Тип абонента<span class="requiredArea">*</span></label>
         <select class="form-select" aria-label="Default select example" id="inputClientType" required>
             <option selected>Open this select menu</option>
             <option value="1">One</option>
@@ -32,7 +32,7 @@
         <span class="bold-text">Оператор: </span>Из какого города Вы звоните?
     </p>
     <div class="mb-3">
-        <label for="inputCity" class="form-label">Город</label>
+        <label for="inputCity" class="form-label">Город<span class="requiredArea">*</span></label>
         <input type="text" class="form-control" id="inputCity" aria-describedby="inputCity" required>
     </div>
     <div class="mb-3">
@@ -44,7 +44,7 @@
         <span class="bold-text">Оператор: </span>Чем я могу Вам помочь?
     </p>
     <div class="mb-3">
-        <label for="inputSubjectOfAppeal" class="form-label">Тематика обращения</label>
+        <label for="inputSubjectOfAppeal" class="form-label">Тематика обращения<span class="requiredArea">*</span></label>
         <input type="text" class="form-control" id="inputSubjectOfAppeal" aria-describedby="inputSubjectOfAppeal" required>
     </div>
     <div class="mb-3">
