@@ -52,7 +52,7 @@
         <input type="text" class="form-control" id="inputSubjectOfAppealOther" aria-describedby="inputSubjectOfAppealOther">
     </div>
     <button type="submit" class="btn btn-primary">
-        <a class="sendFormBtn" href="./?r=<?= Yii::$app->layout?>/information">Продолжить</a>
+        <a class="sendFormBtn" href="./?r=<?= Yii::$app->layout?>/faq">Продолжить</a>
     </button>
 </form>
 <br>
