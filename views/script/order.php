@@ -51,7 +51,7 @@
         <input type="text" class="form-control" id="inputProductName" aria-describedby="inputProductName" required pattern="[0-9]{6}" name="inputProductName">
     </div>
     <div class="form-group">
-        <label for="commentTextarea">Example textarea</label>
+        <label for="commentTextarea">Комментарий к заявке</label>
         <textarea class="form-control" id="commentTextarea" rows="3" name="commentTextarea"></textarea>
     </div>
   <button type="submit" class="btn btn-primary">Сохранить</button>
